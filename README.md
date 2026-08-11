@@ -61,7 +61,7 @@ curl -i -X POST http://TARGET:9380/v1/user/login \
 
 | CVE | 类型 | 影响版本 | 修复版本 |
 |-----|------|----------|----------|
-| CVE-2026-28797 | SSTI（StringTransform/Message 组件） | 全版本 | 未修复 |
+| CVE-2026-28797 | SSTI（StringTransform/Message 组件） | < 0.25.0（NVD: 0.24.0 and prior） | 0.25.0（沙箱修复，2026-03-02 合入） |
 | CVE-2026-24770 | MinerU 解析器 Zip Slip | < 0.23.1 | 0.23.1 |
 | CVE-2025-69286 | API key 可推导（uuid1 + tenant_id 密钥） | < 0.22.0 | 0.22.0 |
 
